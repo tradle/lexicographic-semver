@@ -1,6 +1,6 @@
 {
   "name": "lexicographic-semver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "convert semver tag to lexicographically sortable string, sort, compare, validate",
   "main": "index.js",
   "scripts": {
