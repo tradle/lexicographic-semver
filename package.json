@@ -1,0 +1,27 @@
+{
+  "name": "lexicographic-semver",
+  "version": "1.0.0",
+  "description": "convert semver tag to lexicographically sortable string, sort, compare, validate",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "eslint --quiet . && npm test",
+    "test": "node test"
+  },
+  "keywords": [
+    "semver",
+    "compare-versions",
+    "sortable-version",
+    "lexicographic-version",
+    "lexicographic-semver"
+  ],
+  "author": "mvayngrib",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "husky": "^0.14.3",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "lexicographic-integer": "^1.1.0"
+  }
+}
