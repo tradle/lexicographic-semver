@@ -1,4 +1,4 @@
-# @tradle/semver-sort
+# lexicographic-semver
 
 convert semver tag to lexicographically sortable string, sort, compare, validate
 
@@ -15,7 +15,7 @@ npm i -S lexicographic-semver
 ## Usage
 
 ```js
-const semverSort = require('@tradle/semver-sort')
+const semverSort = require('lexicographic-semver')
 semverSort.sortTags(['1.2.3', '1.2.1', '1.2.2-rc.0'])
 // [ '1.2.1', '1.2.2-rc.0', '1.2.3' ]
 
